@@ -1,0 +1,28 @@
+name=input("enter costumer name:")
+item1_name="mango juice"
+item1_price=float(input("price of mango juice:"))
+item1_qty=float(input("qty of mango juice:"))
+
+item2_name="banana juice"
+item2_price=float(input("price of banana juice:"))
+item2_qty=float(input("qty of banana juice:"))
+
+item3_name="apple juice"
+item3_price=float(input("price of apple juice:"))
+item3_qty=float(input("qty of apple juice:"))
+
+item1_total=item1_price*item1_qty
+item2_total=item2_price*item2_qty
+item3_total=item3_price*item3_qty
+sub_total=item1_total+item2_total+item3_total
+
+discount_amt=sub_total*0.1
+total=sub_total+discount_amt
+print("name:",name)
+print("item1 total:",item1_total)
+print("item2 total:",item2_total)
+print("item3 total:",item3_total)
+print("sub total:",sub_total)
+print("discount:",discount_amt)
+print("total:",total)
+
