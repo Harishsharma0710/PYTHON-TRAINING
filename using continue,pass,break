@@ -1,0 +1,11 @@
+for i in range(1,40):
+  if i == 5:
+    print("skip 5")
+    continue
+  elif i == 14:
+    print("break statement")
+    break
+  elif i == 3:
+    pass
+  else:
+    print("number:",i)
