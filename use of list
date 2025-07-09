@@ -1,0 +1,41 @@
+x=[input("enter the student name:")]
+
+
+y=[input("enter the student roll number:")]
+z=[input("enter the student class:")]
+a=[input("enter the student section:")]
+
+
+b=[]
+b.append("math")
+b.append("science")
+b.append("english")
+b.insert(2,"social")
+b.append("hindi")
+
+
+student_details = []
+student_details.append(x[0])
+student_details.append(y[0])
+student_details.append(z[0])
+student_details.append(a[0])
+
+
+student_subjects = b
+
+c=[]
+
+c.append(float(input("enter the marks of math:")))
+c.append(float(input("enter the marks of social:")))
+c.append(float(input("enter the marks of science:"))) 
+c.append(float(input("enter the marks of english:")))
+c.append(float(input("enter the marks of hindi:")))
+total_of_subject=100*5
+total_of_student=sum(c)
+percenttage_of_student=(total_of_student/total_of_subject)*100
+
+22
+print("Student Details:", student_details)
+print("Student Subjects:", student_subjects)
+print("total of student:2",total_of_student)
+print("% of student",percenttage_of_student)
