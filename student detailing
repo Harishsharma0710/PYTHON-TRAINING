@@ -1,0 +1,53 @@
+# Details of a student
+
+age = int(input("enter the age:"))
+print("Age (int):", age)
+
+height = float(input("Enter the height: "))
+print("Height (float):", height)
+
+
+name = str(input("Enter the name: "))
+print("Name (str):", name)
+
+
+
+
+
+subjects = ["Math", "Science", "History"]
+subjects.insert(1,"chemistry")
+subjects.pop(2)
+print("Subjects (list):", subjects)
+subjects.append("English")
+
+
+grades = (90, 85, 88)
+type(grades)
+print("Grades (tuple):", grades)
+
+
+hobbies = {"reading", "music", "coding", "music"}
+print("Hobbies (set):", hobbies)
+
+
+student_info = {
+    "name": name,
+    "age": age,
+    "height": height,
+    "is_student": True
+}
+print("Student Info (dict):", student_info)
+
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
+
+
+middle_name = None
+print("Middle Name (NoneType):", middle_name)
+
+print("\nSummary:")
+print(f"{name} is {age} years old, {height}ft tall, studies {subjects}, and scored {grades}.")
+print(f"Hobbies: {hobbies}")
+print(f"Student Record: {student_info}")
